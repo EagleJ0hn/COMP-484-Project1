@@ -1,19 +1,20 @@
-body{
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url("../images/stone-block.png");
-    background-repeat: repeat;
-    background-size: 100px 100px;
-    color: #222222;
-}
-
 header{
     background-image: url("../images/grass-block.jpg");
     background-repeat: repeat-x;
-    background-size: 100px 100px;
+    background-size: 200px 200px;
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../images/grass-block.jpg");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    color: #222222;
 }
 
 menu {
@@ -69,13 +70,16 @@ article {
 }
 
 article a {
-    color: #3f6b35;
-    font-weight: bold;
+    display: inline-block;
+    background-color: #3f6b35;
+    color: white;
+    padding: 10px 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 article a:hover{
-    text-decoration: underline;
+    background-color: #2f5228;
 }
 
 footer {
