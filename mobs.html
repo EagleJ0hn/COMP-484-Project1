@@ -36,6 +36,10 @@
                     <p>
                         Creepers are hostile mobs that are known to explode when they get close.
                     </p>
+                    <!-- Attribute: disabled
+                            - Prevents and interactive element unusable.
+                            - In this case the Learn More button does nothing because the pages have not been created.-->
+                    <button type="button" disabled>Learn More</button>
                 </article>
                 <article id="zombie">
                     <img src="images/zombie.png" alt="Minecraft Zombie">
@@ -43,6 +47,7 @@
                     <p>
                         Zombies are hostile mobs that attack players and can spawn in dark areas.
                     </p>
+                    <button type="button" disabled>Learn More</button>
                 </article>
                  <article id="skeleton">
                     <img src="images/skeleton.png" alt="Minecraft Skeleton">
@@ -50,6 +55,7 @@
                     <p>
                         Skeletons are hostile mobs that use bows and arrows to attack players from a distance.
                     </p>
+                    <button type="button" disabled>Learn More</button>
                 </article>
                  <article id="spider">
                     <img src="images/spider.png" alt="Minecraft Spider">
@@ -57,6 +63,7 @@
                     <p>
                         Spiders are hostile when in dark areas, but they become passive when they're in the light.
                     </p>
+                    <button type="button" disabled>Learn More</button>
                 </article>
             </section>
             <section>
@@ -67,6 +74,7 @@
                     <p>
                         Cows are passive mobs that provide resources such as milk, leather, and beef.
                     </p>
+                    <button type="button" disabled>Learn More</button>
                 </article>
                 <article id="pig">
                     <img src="images/pig.png" alt="Minecraft Pig">
@@ -74,6 +82,7 @@
                     <p>
                         Pigs are passive mobs that can be ridden when equipped with a saddle.
                     </p>
+                    <button type="button" disabled>Learn More</button>
                 </article>
                 <article id="sheep">
                     <img src="images/sheep.png" alt=" Minecraft Sheep">
@@ -81,6 +90,7 @@
                     <p>
                         Sheep are passive mobs that provide resources such as wool.
                     </p>
+                    <button type="button" disabled>Learn More</button>
                 </article>
                 <article id="wolf">
                     <img src="images/wolf.png" alt=" Minecraft Wolf">
@@ -88,11 +98,18 @@
                     <p>
                         Wolves are passive mobs that can be tamed by the player. However, wolves can become hostile when attacked.
                     </p>
+                    <button type="button" disabled>Learn More</button>
                 </article>
             </section>
             <!-- Element: <search>
                     - Represents a section of a page used for searching.
-                    - Allows the user to search for information -->
+                    - In this case the user can search for a specific mob 
+            -->
+            <!-- Attribute: for
+                    - links a label element to a specific form control.
+                    - The value of the for attribute must match the id attribute of the target form element. 
+                    - In this case, for connects the label to Minecraft Wiki search input. 
+            -->
             <search>
                 <form action="https://minecraft.wiki/w/Special:Search" method="GET"> 
                     <label for="site-search">Search the Minecraft Wiki:</label>

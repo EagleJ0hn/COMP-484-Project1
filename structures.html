@@ -22,6 +22,92 @@
             </nav>
         </header>
         <main>
+            <section>
+                <h2>Minecraft Structures</h2>
+                <p>
+                    Minecraft contains many structures that can be discovered while exploring the different biomes/dimensions in Minecraft. Some of the structures contain valuable loot, resources, and enemies.
+                </p>
+            </section>
+            <section>
+                <h2>Overworld Structures</h2>
+                <article>
+                    <img src="images/structures/village.png" alt="Minecraft Village">
+                    <h3>Village</h3>
+                    <p>
+                        Villages can be found in several different biomes in the overworld. They contain houses, farms, and villagers.
+                    </p>
+                    <button type="button" disabled>Learn More</button>
+                </article>
+                <article>
+                    <img src="images/structures/woodland-mansion.png" alt="Minecraft Woodland Mansion">
+                    <h3>Woodland Mansion</h3>
+                    <p>
+                        Woodland Mansions are large structures that can be found in dark forest biomes. They are home to multiple hostile mobs.
+                    </p>
+                    <button type="button" disabled>Learn More</button>
+                </article>
+                <article>
+                    <img src="images/structures/stronghold.png" alt="Minecraft Stronghold">
+                    <h3>Stronghold</h3>
+                    <p>
+                        Strongholds are underground structures that contain an End Portal. This is the only way for a player to travel to the End dimension.
+                    </p>
+                    <button type="button" disabled>Learn More</button>
+                </article>
+            </section>
+            <section>
+                <h2>Nether Structures</h2>
+                <article>
+                    <img src="images/structures/fortress.png" alt="Minecraft Fortress">
+                    <h3>Nether Fortress</h3>
+                    <p>
+                        Nether Fortresses are structures made of nether bricks. They contain many different hostile mobs. They also contain valuable resources.
+                    </p>
+                    <button type="button" disabled>Learn More</button>
+                </article>
+                <article>
+                    <img src="images/structures/bastion.png" alt="Minecraft Bastion">
+                    <h3>Bastions</h3>
+                    <p>
+                        Bastions are large structures inhabited by Piglins. These structures also contain valuable resources.
+                    </p>
+                    <button type="button" disabled>Learn More</button>
+                </article>
+            </section>
+            <section>
+                <h2>End Structures</h2>
+                <article>
+                    <img src="images/structures/end-city.png" alt="Minecraft End City">
+                    <h3>End City</h3>
+                    <p>
+                        End Cities are large structures found on the outer island of the End. These End Cities contain valuable loot and is the only structure where a player can obtain an Elytra.
+                    </p>
+                    <button type="button" disabled>Learn More</button>
+                </article>
+            </section>
+            <!-- Element: <legend>
+                    - Used to define a caption or title for the content inside its parent <fieldset> element. 
+                    - Must be placed as the very first child inside a <fieldset>
+            -->
+            <!-- Attribute: size
+                    - Specifies the number of options that are visible in a select element.
+                    - In this case, the size attribute allows four structure options to be visible at once.
+             -->
+            <!-- Attribute: for
+                    - Links a label element to a specific form control.
+                    - In this case, it connects the label to the structure selection menu. -->
+            <fieldset>
+                <legend>Structure Information</legend>
+                <label for="structure-type">Choose a structure</label>
+                <select id="structure-type" name="structure-type" size="4">
+                    <option>Village</option>
+                    <option>Woodland Mansion</option>
+                    <option>Nether Fortress</option>
+                    <option>End City</option>
+                    <option>Bastions</option>
+                    <option>Stronghold</option>
+                </select>
+            </fieldset>
 
         </main>
         <footer>
