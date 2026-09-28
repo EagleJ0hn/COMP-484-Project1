@@ -39,6 +39,31 @@ menu a:hover{
     columns: #c8e6c9;
 }
 
+search {
+    display: block;
+    background-color: #dddddd;
+    padding: 15px;
+    margin-top: 20px;
+    border: 3px solid #777777;
+}
+
+input[type="search"]{
+    padding: 8px;
+    border: 2px solid #555555;
+}
+
+button {
+    background-color: #3f6b35;
+    color: white;
+    padding: 8px 15px;
+    border: 2px solid #2f5228;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2f5228;
+}
+
 main {
     max-width: 1000px;
     margin: 0 auto;
@@ -50,6 +75,14 @@ section{
     padding: 25px;
     margin-bottom: 25px;
     border: 2px solid #777777;
+    box-shadow: 4px 4px 0px #333333;
+}
+
+section article {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 1%;
 }
 
 h2 {
@@ -66,7 +99,8 @@ article {
     background-color: #eeeeee;
     padding: 20px;
     margin-top: 15px;
-    border-left: 5px solid #3f6b35;
+    border: 3px solid #777777;
+    box-shadow: 3px 3px 0px #333333;
 }
 
 article a {
@@ -80,6 +114,14 @@ article a {
 
 article a:hover{
     background-color: #2f5228;
+}
+
+article img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 auto 15px auto;
 }
 
 footer {

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Minecraft: Mobs</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header role="banner">
+            <h1>Minecraft: Hello World!</h1>
+            <nav>
+                <!--Element: <menu> 
+                    - Represents an unordered list of items. 
+                    - It is treated by browsers as no different to <ul>.
+                    - Key difference is that <menu> represents a toolbar for containing commands that the user can perform.  -->
+                <menu>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mobs.html">Mobs</a></li>
+                    <li><a href="biomes.html">Biomes</a></li>
+                    <li><a href="structures.html">Structures</a></li>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Minecraft Mobs</h2>
+                <p>
+                    Minecraft contains many different mobs that the player may encounter while exploring the world.
+                </p>
+            </section>
+            <section>
+                <h2>Hostile Mobs</h2>
+                <article id="creeper">
+                    <img src="images/creeper.png" alt="Minecraft Creeper">
+                    <h3>Creeper</h3>
+                    <p>
+                        Creepers are hostile mobs that are known to explode when they get close.
+                    </p>
+                </article>
+                <article id="zombie">
+                    <img src="images/zombie.png" alt="Minecraft Zombie">
+                    <h3>Zombie</h3>
+                    <p>
+                        Zombies are hostile mobs that attack players and can spawn in dark areas.
+                    </p>
+                </article>
+                 <article id="skeleton">
+                    <img src="images/skeleton.png" alt="Minecraft Skeleton">
+                    <h3>Skeleton</h3>
+                    <p>
+                        Skeletons are hostile mobs that use bows and arrows to attack players from a distance.
+                    </p>
+                </article>
+                 <article id="spider">
+                    <img src="images/spider.png" alt="Minecraft Spider">
+                    <h3>Spider</h3>
+                    <p>
+                        Spiders are hostile when in dark areas, but they become passive when they're in the light.
+                    </p>
+                </article>
+            </section>
+            <section>
+                <h2>Passive Mobs</h2>
+                <article id="cow">
+                    <img src="images/cow.png" alt="Minecraft Cow">
+                    <h3>Cow</h3>
+                    <p>
+                        Cows are passive mobs that provide resources such as milk, leather, and beef.
+                    </p>
+                </article>
+                <article id="pig">
+                    <img src="images/pig.png" alt="Minecraft Pig">
+                    <h3>Pig</h3>
+                    <p>
+                        Pigs are passive mobs that can be ridden when equipped with a saddle.
+                    </p>
+                </article>
+                <article id="sheep">
+                    <img src="images/sheep.png" alt=" Minecraft Sheep">
+                    <h3>Sheep</h3>
+                    <p>
+                        Sheep are passive mobs that provide resources such as wool.
+                    </p>
+                </article>
+                <article id="wolf">
+                    <img src="images/wolf.png" alt=" Minecraft Wolf">
+                    <h3>Wolf</h3>
+                    <p>
+                        Wolves are passive mobs that can be tamed by the player. However, wolves can become hostile when attacked.
+                    </p>
+                </article>
+            </section>
+            <!-- Element: <search>
+                    - Represents a section of a page used for searching.
+                    - Allows the user to search for information -->
+            <search>
+                <form action="https://minecraft.wiki/w/Special:Search" method="GET"> 
+                    <label for="site-search">Search the Minecraft Wiki:</label>
+                    <input type="search" id="site-search" name="search" placeholder="Search for a mob..." required >
+                    <button type="submit">Search</button> 
+                </form> 
+            </search>
+        </main>
+        <footer>
+            <p>&copy; 2026 Minecraft: Hello World!</p>
+        </footer>
+    </body>
+</html>
